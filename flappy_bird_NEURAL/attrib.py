@@ -3,6 +3,7 @@ import pygame
 from numpy import array, random, reshape
 from genetic import Population
 
+
 def do_overlap(rect1, rect2):
     l1, r1 = rect1.topleft, rect1.bottomright
     l2, r2 = rect2.topleft, rect2.bottomright
