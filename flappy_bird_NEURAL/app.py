@@ -1,6 +1,5 @@
 import pygame
 
-
 from attrib import Bird, Color, Game, Pipe
 
 def principal():
