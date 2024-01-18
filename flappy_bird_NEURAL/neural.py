@@ -1,5 +1,6 @@
 from numpy import array, dot, exp, power, random, reshape, sum
 
+
 class NeuralNetwork:
     def __init__(self, dimensions, weights=None, mutate_prob=0.03):
         self.total_layers = len(dimensions)
