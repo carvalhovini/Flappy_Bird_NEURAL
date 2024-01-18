@@ -3,7 +3,6 @@ from numpy import array, random, reshape
 import attrib
 from neural import NeuralNetwork
 
-
 class Individual:
     dimensions = (5, 5, 5, 1)
     feature_limits = None
